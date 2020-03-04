@@ -1,0 +1,4 @@
+# eslint ignore file -> This will ommit liniting rules on folder or file name specified below : 
+/node_modules
+/dist
+/package.json

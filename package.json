@@ -1,0 +1,29 @@
+{
+  "name": "react-facebook-backend",
+  "version": "1.0.0",
+  "description": "The Node.js backend written for supporting the frontend react app created for cloning facebook upto the possible extent 😜😜",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lint & nodemon server/server.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "author": "Pavan Aditya M S",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
